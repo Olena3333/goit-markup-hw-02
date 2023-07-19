@@ -159,7 +159,7 @@ button {
   cursor: pointer;
 }
 
-.button-secondary {
+.portfolio-button {
   color: var(--accent-color);
   /*visibility: hidden;*/
   background-color: var(--background-color);
@@ -167,8 +167,8 @@ button {
   /*border: 1px solid var(--cornflower, #e7e9fc);*/
 }
 
-.button .secondary:hover,
-.button .secondary:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: #ffffff;
   background-color: #404bbf;
   /*border-radius: 4px;*/
