@@ -161,7 +161,7 @@ button {
 
 .button-secondary {
   color: var(--accent-color);
-  visibility: hidden;
+  /*visibility: hidden;*/
   background-color: var(--background-color);
   /*border-radius: 4px;*/
   /*border: 1px solid var(--cornflower, #e7e9fc);*/
