@@ -46,14 +46,15 @@ button {
   font-size: 18px;
   font-style: normal;
   letter-spacing: 0.54px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-transform: uppercase;
+  font-weight: 800;
 }
 .logo-pat {
   color: var(--title-text-color);
 }
 .logo-patfooter {
-  color: var(--hero-tatle-color);
+  color: color: #f4f4fd;
 }
 .logo:hover {
   background-color: #404bbf;
@@ -61,10 +62,13 @@ button {
 /*sate nav*/
 .site-nav .link {
   color: var(--title-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 .site-nav .current {
   color: var(--accent-color);
@@ -74,23 +78,35 @@ button {
   color: var(--primary-text-color);
   text-transform: lowercase;
 }
+.list-address {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.list-address:hover,
+.list-address:focus {
+  color: #404bbf;
+}
 /* ================ HERO ================ */
 .hero {
-  background-color: var(--primary-text-color);
+  background-color: #2e2f42;
 }
 .hero-title {
   color: var(--hero-tatle-color);
   font-size: 56px;
   font-weight: 400;
-  line-height: 60px;
   letter-spacing: 0.02em;
   text-align: center;
+  line-height: 1.07;
 }
 /* sektion*/
 .section-title {
   color: var(--title-text-color);
   text-align: center;
   font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 /* Our principles*/
 .principles-list .title {
@@ -110,11 +126,16 @@ button {
   line-height: 1.2;
   letter-spacing: 0.4px;
   text-align: center;
+  background-color: #f4f4fd;
+}
+.team-designer {
+  background-color: var(--hero-tatle-color);
 }
 .team .post {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
   text-align: center;
+  font-weight: 500;
 }
 /* button*/
 .button {
@@ -133,16 +154,16 @@ button {
   color: var(--accent-color);
   visibility: hidden;
   background-color: #f4f4fd;
-  border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
+  /*border-radius: 4px;*/
+  /*border: 1px solid var(--cornflower, #e7e9fc);*/
 }
 
 .button.secondary:hover,
 .button.secondary:focus {
-  color: var(--hero-tatle-color);
+  color: #FFFFFF;
   background-color: #404bbf;
-  border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
+  /*border-radius: 4px;*/
+  /*border: 1px solid var(--cornflower, #e7e9fc);*/
 }
 
 .button:hover,
