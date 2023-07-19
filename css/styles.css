@@ -1,7 +1,7 @@
 /*main color 434455  */
 /*title 4D5AE5 2E2F42 */
 /*secondary color weit FFFFFF*/
-/*accent color Iris 4D5AE5 2E2F42 */
+/*accent color Iris 4D5AE5 2E2F42 #F4F4FD*/
 /*Name: Body;
 font-family: Roboto;
 font-size: 16px;
@@ -16,6 +16,7 @@ text-align: left;
   --hero-tatle-color: #ffffff;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
+  --background-color: #f4f4fd;
 }
 body {
   color: var(--primary-text-color);
@@ -51,7 +52,7 @@ button {
   font-weight: 800;
 }
 .logo-pat {
-  color: #f4f4fd;
+  color: var(--title-text-color);
 }
 .logo-patfooter {
   color: #f4f4fd;
@@ -154,14 +155,14 @@ button {
   letter-spacing: 0.64px;
   color: var(--hero-tatle-color);
   background-color: var(--accent-color);
-  text-align: center;
+  /*text-align: center;*/
   cursor: pointer;
 }
 
 .button-secondary {
   color: var(--accent-color);
   visibility: hidden;
-  background-color: #f4f4fd;
+  background-color: var(--background-color);
   /*border-radius: 4px;*/
   /*border: 1px solid var(--cornflower, #e7e9fc);*/
 }
