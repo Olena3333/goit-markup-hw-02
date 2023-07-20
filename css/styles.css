@@ -161,10 +161,9 @@ button {
 
 .portfolio-button {
   color: var(--accent-color);
-  /*visibility: hidden;*/
+
   background-color: var(--background-color);
-  /*border-radius: 4px;*/
-  /*border: 1px solid var(--cornflower, #e7e9fc);*/
+
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
@@ -177,8 +176,6 @@ button {
 .portfolio-button:focus {
   color: #ffffff;
   background-color: #404bbf;
-  /*border-radius: 4px;*/
-  /*border: 1px solid var(--cornflower, #e7e9fc);*/
 }
 
 .button:hover,
@@ -197,21 +194,6 @@ button {
   letter-spacing: 0.32px;
   color: #f4f4fd;
 }
-
-/* ================ hidden ================ 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-*/
 
 /* ================ Portfolio ================ */
 .app .title {
