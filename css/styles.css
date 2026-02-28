@@ -112,7 +112,7 @@ color: var(--background-color);
 .hero-title {
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--hero-tatle-color);
@@ -135,13 +135,16 @@ height: 56px; */
 background-color: #404BBF;  
 }
 /* sektion*/
+.section {
+    background-color: var(--background-color)
+}
 .section-title {
     color: var(--title-text-color);
     font-size: 36px;
     font-weight: 500;
     text-align: center;
     letter-spacing: 0.02em;
-    line-height: 1.07;
+    line-height: 1.11;
     font-weight: 700;
   }
   /* Our principles*/
@@ -175,9 +178,10 @@ color: var(--primary-text-color);
 }
 /* Our Team*/
 /* .team-list {
-}
+}*/
 .team-item {
-} */
+    background-color: var(--hero-tatle-color); 
+} 
 
 
  /* section Our Portfolio */ 
@@ -190,5 +194,7 @@ background: var(--title-text-color);
 color: var(--accent-color)
 }
 .footer-text {
+line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--background-color);
 }
