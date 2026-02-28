@@ -118,7 +118,6 @@ text-align: center;
 color: var(--hero-tatle-color);
 }
 .hero-button {
-/* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
 background: var(--accent-color);
 /* border-radius: 4px;
 padding: 16px 32px; */
@@ -167,7 +166,7 @@ color: var(--title-text-color);
 }
 .principle-text,
 .team-item-text,
-.portfolio-item-text
+.portfolio-item-text,
 .footer-text 
  {
 font-weight: 400;
