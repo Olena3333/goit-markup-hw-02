@@ -4,13 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" hfvref="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100;400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
@@ -55,7 +63,7 @@
         <!-- Our principle -->
             <section  class="section">
             <h2 class="visually-hidden">Our principles</h2>
-            <ul class="principles-list list">
+            <ul class="principles-list">
                 <li>
                     <h3 class="principle-title">Strategy</h3>
                 <p class="principle-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p></li>
@@ -75,25 +83,25 @@
         </section>
         <section class="section">
         <h2 class="section-title">Our Team</h2>
-        <ul class="team-list list">
+        <ul class="team-list">
             <li class="team-item"> 
                 <img src="./images/img1.jpg" alt="Young man with a beard" width="264"/>
-                <h3 class="team-item-tetle">Mark Guerrero</h3>
+                <h3 class="team-item-title">Mark Guerrero</h3>
                 <p class="team-item-text">Product Designer</p>
             </li>
             <li>
                 <img src="./images/img2.jpg" alt="A young, smiling man" width="264"/>
-                <h3 class="team-item-tetle">Tom Ford</h3>
+                <h3 class="team-item-title">Tom Ford</h3>
                 <p class="team-item-text">Frontend Developer</p>
             </li>
             <li>
                 <img src="./images/img3.jpg" alt="Young girl with long hair" width="264"/>
-                <h3 class="team-item-tetle">Camila Garcia</h3>
+                <h3 class="team-item-title">Camila Garcia</h3>
                 <p class="team-item-text">Marketing</p>
             </li>
             <li>
                 <img src="./images/img4.jpg" alt="A young, smiling man" width="264"/>
-                <h3 class="team-item-tetle">Daniel Wilson</h3>
+                <h3 class="team-item-title">Daniel Wilson</h3>
                 <p class="team-item-text">UI Designer</p>
             </li>
         </ul>
@@ -101,13 +109,13 @@
     <!--  section Our Portfolio -->
     <section class="section">
         <h2 class="section-title">Our Portfolio</h2>
-        <ul class="portfolio-list list">
+        <ul class="portfolio-list">
           <li class="portfolio-list-item">
             <img class="portfolio-item-img" 
             src="./images/img5.jpg" 
             alt="Monitor screen" 
             width="360" />
-            <h3 class="portfolio-item-tetle">Banking App</h3>
+            <h3 class="portfolio-item-title">Banking App</h3>
             <p class="portfolio-item-text">App</p>
           </li>
           <li>
@@ -116,7 +124,7 @@
             alt="Phone display" 
             width="360" 
             />
-            <h3 class="portfolio-item-tetle">Cashless Paymen</h3>
+            <h3 class="portfolio-item-title">Cashless Paymen</h3>
             <p class="portfolio-item-text">Marketing</p>
           </li>
           <li>
@@ -125,7 +133,7 @@
             alt="Laptop display"
             width="360" 
             />
-            <h3 class="portfolio-item-tetle">Meditation App</h3>
+            <h3 class="portfolio-item-title">Meditation App</h3>
             <p class="portfolio-item-text">App</p>
           </li>
           <li>
@@ -134,7 +142,7 @@
               alt="Phone in taxi"
               width="360" 
             />
-            <h3 class="portfolio-item-tetle">Taxi Service</h3>
+            <h3 class="portfolio-item-title">Taxi Service</h3>
             <p class="portfolio- item-text">Marketing</p>
           </li>
           <li>
@@ -143,7 +151,7 @@
               alt="Phone display"
               width="360" 
             />
-            <h3 class="portfolio-item-tetle">Screen Illustrations</h3>
+            <h3 class="portfolio-item-title">Screen Illustrations</h3>
             <p class="portfolio-item-text">Design</p>
           </li>
           <li>
@@ -152,16 +160,20 @@
               alt="Phone in hands"
               width="360"
             />
-            <h3 class="portfolio-item-tetle">Online Courses</h3>
+            <h3 class="portfolio-item-title">Online Courses</h3>
             <p class="portfolio-item-text">Marketing</p>
           </li>
         </ul>
       </section>    
     </main>
 <footer class="footer">
-<a class="link footer-link" href="./index.html">WebStudio
-</a>
-<p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-</footer>
+    <a class="footer-logo" href="./index.html" 
+      Web<span class="logo-part">Studio</span>
+    </a>
+    <p class="footer-text">
+      Increase the flow of customers and sales for your business with digital
+      marketing & growth solutions.
+    </p>
+  </footer>
 </body>
 </html>         

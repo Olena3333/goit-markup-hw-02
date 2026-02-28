@@ -64,7 +64,7 @@
   color: var(--accent-color);
 }
 .header-logo .logo-part {
-    color: var(--title-text-color);
+    color: #2e2f42 ;
   }
   
   .footer-logo .logo-part {
@@ -118,10 +118,19 @@ color: var(--hero-tatle-color);
 .hero-button {
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: var(--accent-color);
-border-radius: 4px;
-padding: 16px 32px;
-width: 169px;
-height: 56px;
+/* border-radius: 4px;
+padding: 16px 32px; */
+font-weight: 500;
+line-height: 1.5;
+font-size: 16px;
+letter-spacing: 0.04em;
+color: var(--hero-tatle-color);
+/* width: 169px;
+height: 56px; */
+}
+.hero-button:hover,
+.hero-button:focus {
+background-color: #404BBF;  
 }
 /* sektion*/
 .section-title {
@@ -130,5 +139,51 @@ height: 56px;
     font-weight: 500;
     text-align: center;
     letter-spacing: 0.02em;
-    line-height: 1.11;
+    line-height: 1.07;
+    font-weight: 700;
   }
+  /* Our principles*/
+.principles-list {
+color: var(--title-text-color);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.principle-title, 
+.team-item-title,
+.portfolio-item-title   
+{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
+}
+.principle-text,
+.team-item-text,
+.portfolio-item-text
+.footer-text 
+ {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+/* Our Team*/
+/* .team-list {
+}
+.team-item {
+} */
+
+
+ /* section Our Portfolio */ 
+
+  /* Footer */ 
+.footer {
+background: var(--title-text-color);
+}
+.footer-text {
+color: var(--background-color);
+}
