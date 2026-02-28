@@ -87,7 +87,7 @@ color: var(--background-color);
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #404bbf;
+color: #404bbf;
 }
 /* ================ HERO ================ */
 .hero {
@@ -103,15 +103,11 @@ color: var(--hero-tatle-color);
 }
 .hero-button {
 background: var(--accent-color);
-/* border-radius: 4px;
-padding: 16px 32px; */
 font-weight: 500;
 line-height: 1.5;
 font-size: 16px;
 letter-spacing: 0.04em;
 color: var(--hero-tatle-color);
-/* width: 169px;
-height: 56px; */
 }
 .hero-button:hover,
 .hero-button:focus {
